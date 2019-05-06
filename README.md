@@ -28,7 +28,13 @@ Then, it creates a folder "Thermodynamics", where:
 	
 All these files are present in the folder.
 
-COMPILING This code uses the standard libraries <stdio.h>, <stdlib.h>, <math.h>, <string.h>, <time.h>. In addition, the libraries sys/types.h, sys/stat.h and unistd.h were included in order to use the functions mkdir() and chdir(). You can compile with make in main directory.
+COMPILING This code uses the standard libraries <stdio.h>, <stdlib.h>, <math.h>, <string.h>, <time.h>. In addition, the libraries sys/types.h, sys/stat.h and unistd.h were included in order to use the functions mkdir() and chdir(). 
+You can compile in main directory with:
+
+```bash
+make
+```
+
 
 CONTACT For problems, debugging, contact Paolo Parotto at paolo.parotto@gmail.com
 
