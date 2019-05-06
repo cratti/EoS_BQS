@@ -25,8 +25,7 @@ Then, it creates a folder "Thermodynamics", where:
 	
 - It creates a file "AllTherm_NoQS_muBTConst_Taylor.dat", where thermodynamic quantities are calculated for T = 30 - 800 MeV, along lines of constant muB/T, for muB/T = 0.5,1,1.5,2,2.5,3, with muQ=muS=0.
 	In order: muB/T, T, muB, muQ, muS, Pressure, entropy density, baryon density, strangeness density, charge density, energy density, speed of sound;
-	
-All these files are present in the folder.
+
 
 COMPILING This code uses the standard libraries <stdio.h>, <stdlib.h>, <math.h>, <string.h>, <time.h>. In addition, the libraries sys/types.h, sys/stat.h and unistd.h were included in order to use the functions mkdir() and chdir(). 
 You can compile and then run in main directory with:
